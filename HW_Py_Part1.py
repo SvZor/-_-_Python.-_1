@@ -339,109 +339,185 @@
 # for k, v in result.items():
 #     print(f"{k} : {v}")
 
-#  Задача 3. Банкомат с функциями
-# Список для хранения всех операций
-operations = []
+# #  Задача 3. Банкомат с функциями
+# # Список для хранения всех операций
+# operations = []
 
-def show_balance(balance):
-    """Показывает текущий баланс"""
-    print(f"\nВаш баланс: {balance} руб.")
-    operations.append(f"Проверка баланса: {balance} руб.")
+# def show_balance(balance):
+#     """Показывает текущий баланс"""
+#     print(f"\nВаш баланс: {balance} руб.")
+#     operations.append(f"Проверка баланса: {balance} руб.")
 
-def deposit(balance):
-    """Пополнение счёта"""
-    try:
-        amount = int(input("Введите сумму для пополнения: "))
+# def deposit(balance):
+#     """Пополнение счёта"""
+#     try:
+#         amount = int(input("Введите сумму для пополнения: "))
         
-        if amount <= 0:
-            print("Сумма должна быть положительной!")
-            return balance
+#         if amount <= 0:
+#             print("Сумма должна быть положительной!")
+#             return balance
         
-        # Начисляем проценты (3% от суммы пополнения, но не более 600 руб.)
-        percent = amount * 0.03
-        if percent > 600:
-            percent = 600
+#         # Начисляем проценты (3% от суммы пополнения, но не более 600 руб.)
+#         percent = amount * 0.03
+#         if percent > 600:
+#             percent = 600
         
-        balance += amount + percent
-        print(f"Внесено {amount} руб. Начислено {percent:.2f} руб. процентов")
-        operations.append(f"Пополнение: +{amount} руб. (+{percent:.2f} руб. проценты)")
+#         balance += amount + percent
+#         print(f"Внесено {amount} руб. Начислено {percent:.2f} руб. процентов")
+#         operations.append(f"Пополнение: +{amount} руб. (+{percent:.2f} руб. проценты)")
         
-        return balance
-    except ValueError:
-        print("Ошибка: нужно ввести число!")
-        return balance
+#         return balance
+#     except ValueError:
+#         print("Ошибка: нужно ввести число!")
+#         return balance
 
-def withdraw(balance):
-    """Снятие денег"""
-    try:
-        amount = int(input("Введите сумму для снятия: "))
+# def withdraw(balance):
+#     """Снятие денег"""
+#     try:
+#         amount = int(input("Введите сумму для снятия: "))
         
-        if amount <= 0:
-            print("Сумма должна быть положительной!")
-            return balance
+#         if amount <= 0:
+#             print("Сумма должна быть положительной!")
+#             return balance
         
-        # Комиссия 1.5% от суммы снятия, минимум 30 руб, максимум 600 руб
-        commission = amount * 0.015
+#         # Комиссия 1.5% от суммы снятия, минимум 30 руб, максимум 600 руб
+#         commission = amount * 0.015
         
-        if commission < 30:
-            commission = 30
-        elif commission > 600:
-            commission = 600
+#         if commission < 30:
+#             commission = 30
+#         elif commission > 600:
+#             commission = 600
         
-        total_to_withdraw = amount + commission
+#         total_to_withdraw = amount + commission
         
-        if total_to_withdraw > balance:
-            print(f"Недостаточно средств! Нужно {total_to_withdraw:.2f} руб. (включая комиссию {commission:.2f} руб.)")
-            return balance
+#         if total_to_withdraw > balance:
+#             print(f"Недостаточно средств! Нужно {total_to_withdraw:.2f} руб. (включая комиссию {commission:.2f} руб.)")
+#             return balance
         
-        balance -= total_to_withdraw
-        print(f"Снято {amount} руб. Комиссия: {commission:.2f} руб.")
-        operations.append(f"Снятие: -{amount} руб. (-{commission:.2f} руб. комиссия)")
+#         balance -= total_to_withdraw
+#         print(f"Снято {amount} руб. Комиссия: {commission:.2f} руб.")
+#         operations.append(f"Снятие: -{amount} руб. (-{commission:.2f} руб. комиссия)")
         
-        return balance
-    except ValueError:
-        print("Ошибка: нужно ввести число!")
-        return balance
+#         return balance
+#     except ValueError:
+#         print("Ошибка: нужно ввести число!")
+#         return balance
 
-def show_operations():
-    """Показывает историю операций"""
-    if not operations:
-        print("\nИстория операций пуста")
-        return
+# def show_operations():
+#     """Показывает историю операций"""
+#     if not operations:
+#         print("\nИстория операций пуста")
+#         return
     
-    print("\n=== ИСТОРИЯ ОПЕРАЦИЙ ===")
-    for i, operation in enumerate(operations, 1):
-        print(f"{i}. {operation}")
+#     print("\n=== ИСТОРИЯ ОПЕРАЦИЙ ===")
+#     for i, operation in enumerate(operations, 1):
+#         print(f"{i}. {operation}")
 
-# Основная программа
-def main():
-    balance = 0
-    print("=" * 40)
-    print("ДОБРО ПОЖАЛОВАТЬ В БАНКОМАТ")
-    print("=" * 40)
+# # Основная программа
+# def main():
+#     balance = 0
+#     print("=" * 40)
+#     print("ДОБРО ПОЖАЛОВАТЬ В БАНКОМАТ")
+#     print("=" * 40)
     
-    while True:
-        print(f"\n--- Баланс: {balance} руб. ---")
-        print("1. Пополнить счёт")
-        print("2. Снять деньги")
-        print("3. Показать историю операций")
-        print("4. Выйти")
+#     while True:
+#         print(f"\n--- Баланс: {balance} руб. ---")
+#         print("1. Пополнить счёт")
+#         print("2. Снять деньги")
+#         print("3. Показать историю операций")
+#         print("4. Выйти")
         
-        choice = input("Выберите действие (1-4): ")
+#         choice = input("Выберите действие (1-4): ")
         
-        if choice == "1":
-            balance = deposit(balance)
-        elif choice == "2":
-            balance = withdraw(balance)
-        elif choice == "3":
-            show_operations()
-        elif choice == "4":
-            print("\nСпасибо за пользование банкоматом!")
-            operations.append("Завершение работы")
-            break
-        else:
-            print("Неверный выбор! Попробуйте снова.")
+#         if choice == "1":
+#             balance = deposit(balance)
+#         elif choice == "2":
+#             balance = withdraw(balance)
+#         elif choice == "3":
+#             show_operations()
+#         elif choice == "4":
+#             print("\nСпасибо за пользование банкоматом!")
+#             operations.append("Завершение работы")
+#             break
+#         else:
+#             print("Неверный выбор! Попробуйте снова.")
 
-# Запуск программы
-if __name__ == "__main__":
-    main()
+# # Запуск программы
+# if __name__ == "__main__":
+#     main()
+
+# # Семинар 5
+# #  Задача 2. Разбор пути к файлу
+
+# def parse_file_path(file_path):
+#     """
+#     Принимает абсолютный путь до файла и возвращает кортеж:
+#     (путь, имя файла, расширение файла)
+#     """
+#     # Находим последний слэш (разделитель папок)
+#     last_slash = file_path.rfind('/')
+#     last_backslash = file_path.rfind('\\')
+    
+#     # Берём тот разделитель, который есть (или -1 если ни одного)
+#     separator = max(last_slash, last_backslash)
+    
+#     if separator == -1:
+#         # Если нет разделителей, значит путь не указан
+#         path = ""
+#         filename_with_ext = file_path
+#     else:
+#         # Отделяем путь от остального
+#         path = file_path[:separator]
+#         filename_with_ext = file_path[separator + 1:]
+    
+#     # Находим последнюю точку (расширение файла)
+#     last_dot = filename_with_ext.rfind('.')
+    
+#     if last_dot == -1:
+#         # Если нет точки, значит расширения нет
+#         filename = filename_with_ext
+#         extension = ""
+#     else:
+#         # Отделяем имя файла от расширения
+#         filename = filename_with_ext[:last_dot]
+#         extension = filename_with_ext[last_dot + 1:]
+    
+#     return (path, filename, extension)
+
+# # Пример использования
+# path1 = "C:/Users/Максим/Documents/example.py"
+# path2 = "D:\\Projects\\data\\report.txt"
+# path3 = "script.js"
+
+# print(parse_file_path(path1))
+# print(parse_file_path(path2))
+# print(parse_file_path(path3))
+
+# # Задача 3. Однострочный генератор словаря с премией
+
+# # Исходные данные
+# names = ["Иван", "Петр", "Сидор"]
+# salaries = [50000, 60000, 55000]
+# bonuses = ["10.25%", "15.5%", "8.75%"]
+
+# # Однострочный генератор словаря
+# result = {name: salary * float(bonus.strip('%')) / 100 for name, salary, bonus in zip(names, salaries, bonuses)}
+
+# print(result)
+
+# Задача 4. Генератор чисел Фибоначчи
+
+def fibonacci_generator(count):
+    """
+    Генератор чисел Фибоначчи
+    count - сколько чисел нужно сгенерировать
+    """
+    a, b = 0, 1
+    for _ in range(count):
+        yield a
+        a, b = b, a + b
+
+# Пример использования
+print("Первые 10 чисел Фибоначчи:")
+for num in fibonacci_generator(10):
+    print(num, end=" ")
