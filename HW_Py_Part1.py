@@ -505,19 +505,21 @@
 
 # print(result)
 
-# Задача 4. Генератор чисел Фибоначчи
+# # Задача 4. Генератор чисел Фибоначчи
 
-def fibonacci_generator(count):
-    """
-    Генератор чисел Фибоначчи
-    count - сколько чисел нужно сгенерировать
-    """
-    a, b = 0, 1
-    for _ in range(count):
-        yield a
-        a, b = b, a + b
+# def fibonacci_generator(count):
+#     """
+#     Генератор чисел Фибоначчи
+#     count - сколько чисел нужно сгенерировать
+#     """
+#     a, b = 0, 1
+#     for _ in range(count):
+#         yield a
+#         a, b = b, a + b
 
-# Пример использования
-print("Первые 10 чисел Фибоначчи:")
-for num in fibonacci_generator(10):
-    print(num, end=" ")
+# # Пример использования
+# print("Первые 10 чисел Фибоначчи:")
+# for num in fibonacci_generator(10):
+#     print(num, end=" ")
+
+
