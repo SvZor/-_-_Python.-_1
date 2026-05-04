@@ -233,41 +233,215 @@
 # for word, count in top_10:
 #     print(word.ljust(15), count)
 
-# Задача 4. Сбор рюкзака (вещи для похода)
+# # Задача 4. Сбор рюкзака (вещи для похода)
 
-# Словарь: вещь -> масса (в кг)
-items = {
-    "палатка": 3,
-    "спальник": 1.5,
-    "коврик": 0.5,
-    "котелок": 0.8,
-    "еда": 2,
-    "вода": 1.5,
-    "аптечка": 0.3,
-    "фонарик": 0.2,
-    "спички": 0.05,
-    "ножик": 0.1,
-    "топор": 1.2,
-    "смена одежды": 1,
-    "дождевик": 0.4
-}
+# # Словарь: вещь -> масса (в кг)
+# items = {
+#     "палатка": 3,
+#     "спальник": 1.5,
+#     "коврик": 0.5,
+#     "котелок": 0.8,
+#     "еда": 2,
+#     "вода": 1.5,
+#     "аптечка": 0.3,
+#     "фонарик": 0.2,
+#     "спички": 0.05,
+#     "ножик": 0.1,
+#     "топор": 1.2,
+#     "смена одежды": 1,
+#     "дождевик": 0.4
+# }
 
-max_capacity = 5  # Максимальная грузоподъёмность рюкзака
+# max_capacity = 5  # Максимальная грузоподъёмность рюкзака
 
-# Жадный алгоритм (берём самое нужное/лёгкое)
-print(f"Грузоподъёмность рюкзака: {max_capacity} кг\n")
+# # Жадный алгоритм (берём самое нужное/лёгкое)
+# print(f"Грузоподъёмность рюкзака: {max_capacity} кг\n")
 
-remaining_capacity = max_capacity
-backpack = []
+# remaining_capacity = max_capacity
+# backpack = []
 
-# Сортируем вещи по весу (от лёгких к тяжёлым)
-sorted_items = sorted(items.items(), key=lambda x: x[1])
+# # Сортируем вещи по весу (от лёгких к тяжёлым)
+# sorted_items = sorted(items.items(), key=lambda x: x[1])
 
-for item, weight in sorted_items:
-    if weight <= remaining_capacity:
-        backpack.append(item)
-        remaining_capacity -= weight
-        print(f"Добавлено: {item} ({weight} кг), осталось места: {remaining_capacity:.2f} кг")
+# for item, weight in sorted_items:
+#     if weight <= remaining_capacity:
+#         backpack.append(item)
+#         remaining_capacity -= weight
+#         print(f"Добавлено: {item} ({weight} кг), осталось места: {remaining_capacity:.2f} кг")
 
-print(f"\nВ рюкзак поместилось {len(backpack)} вещей: {', '.join(backpack)}")
-print(f"Общий вес: {max_capacity - remaining_capacity:.2f} кг")
+# print(f"\nВ рюкзак поместилось {len(backpack)} вещей: {', '.join(backpack)}")
+# print(f"Общий вес: {max_capacity - remaining_capacity:.2f} кг")
+
+# # Семинар 4
+# # Задача 1. Транспонирование матрицы
+
+# def transpose_matrix(matrix):
+#     """
+#     Транспонирует матрицу (меняет строки и столбцы местами)
+#     """
+#     # Получаем количество строк и столбцов исходной матрицы
+#     rows = len(matrix)
+#     cols = len(matrix[0])
+    
+#     # Создаём новую матрицу с размерами cols x rows, заполненную нулями
+#     result = []
+#     for i in range(cols):
+#         result.append([0] * rows)
+    
+#     # Заполняем транспонированную матрицу
+#     for i in range(rows):
+#         for j in range(cols):
+#             result[j][i] = matrix[i][j]
+    
+#     return result
+
+# # Пример использования
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6]
+# ]
+
+# print("Исходная матрица:")
+# for row in matrix:
+#     print(row)
+
+# transposed = transpose_matrix(matrix)
+
+# print("\nТранспонированная матрица:")
+# for row in transposed:
+#     print(row)
+
+# # Задача 2. Функция с ключевыми параметрами
+
+# def make_dict(**kwargs):
+#     """
+#     Принимает ключевые параметры и возвращает словарь,
+#     где ключ — значение аргумента, а значение — имя аргумента
+#     """
+#     result = {}
+    
+#     for key, value in kwargs.items():
+#         # Проверяем, хешируемый ли ключ (можно ли его использовать как ключ словаря)
+#         try:
+#             # Пробуем создать словарь с этим ключом
+#             test_dict = {value: 1}
+#             result[value] = key
+#         except TypeError:
+#             # Если не получилось (ключ не хешируемый), используем строковое представление
+#             result[str(value)] = key
+    
+#     return result
+
+# # Пример использования
+# result = make_dict(a=10, b="hello", c=[1, 2, 3], d=(4, 5), e={1:2})
+
+# print("Результат:")
+# for k, v in result.items():
+#     print(f"{k} : {v}")
+
+#  Задача 3. Банкомат с функциями
+# Список для хранения всех операций
+operations = []
+
+def show_balance(balance):
+    """Показывает текущий баланс"""
+    print(f"\nВаш баланс: {balance} руб.")
+    operations.append(f"Проверка баланса: {balance} руб.")
+
+def deposit(balance):
+    """Пополнение счёта"""
+    try:
+        amount = int(input("Введите сумму для пополнения: "))
+        
+        if amount <= 0:
+            print("Сумма должна быть положительной!")
+            return balance
+        
+        # Начисляем проценты (3% от суммы пополнения, но не более 600 руб.)
+        percent = amount * 0.03
+        if percent > 600:
+            percent = 600
+        
+        balance += amount + percent
+        print(f"Внесено {amount} руб. Начислено {percent:.2f} руб. процентов")
+        operations.append(f"Пополнение: +{amount} руб. (+{percent:.2f} руб. проценты)")
+        
+        return balance
+    except ValueError:
+        print("Ошибка: нужно ввести число!")
+        return balance
+
+def withdraw(balance):
+    """Снятие денег"""
+    try:
+        amount = int(input("Введите сумму для снятия: "))
+        
+        if amount <= 0:
+            print("Сумма должна быть положительной!")
+            return balance
+        
+        # Комиссия 1.5% от суммы снятия, минимум 30 руб, максимум 600 руб
+        commission = amount * 0.015
+        
+        if commission < 30:
+            commission = 30
+        elif commission > 600:
+            commission = 600
+        
+        total_to_withdraw = amount + commission
+        
+        if total_to_withdraw > balance:
+            print(f"Недостаточно средств! Нужно {total_to_withdraw:.2f} руб. (включая комиссию {commission:.2f} руб.)")
+            return balance
+        
+        balance -= total_to_withdraw
+        print(f"Снято {amount} руб. Комиссия: {commission:.2f} руб.")
+        operations.append(f"Снятие: -{amount} руб. (-{commission:.2f} руб. комиссия)")
+        
+        return balance
+    except ValueError:
+        print("Ошибка: нужно ввести число!")
+        return balance
+
+def show_operations():
+    """Показывает историю операций"""
+    if not operations:
+        print("\nИстория операций пуста")
+        return
+    
+    print("\n=== ИСТОРИЯ ОПЕРАЦИЙ ===")
+    for i, operation in enumerate(operations, 1):
+        print(f"{i}. {operation}")
+
+# Основная программа
+def main():
+    balance = 0
+    print("=" * 40)
+    print("ДОБРО ПОЖАЛОВАТЬ В БАНКОМАТ")
+    print("=" * 40)
+    
+    while True:
+        print(f"\n--- Баланс: {balance} руб. ---")
+        print("1. Пополнить счёт")
+        print("2. Снять деньги")
+        print("3. Показать историю операций")
+        print("4. Выйти")
+        
+        choice = input("Выберите действие (1-4): ")
+        
+        if choice == "1":
+            balance = deposit(balance)
+        elif choice == "2":
+            balance = withdraw(balance)
+        elif choice == "3":
+            show_operations()
+        elif choice == "4":
+            print("\nСпасибо за пользование банкоматом!")
+            operations.append("Завершение работы")
+            break
+        else:
+            print("Неверный выбор! Попробуйте снова.")
+
+# Запуск программы
+if __name__ == "__main__":
+    main()
