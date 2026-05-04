@@ -1,0 +1,737 @@
+[
+    {
+        "name": ".git",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)",
+        "type": "directory",
+        "size_bytes": 437808
+    },
+    {
+        "name": "COMMIT_EDITMSG",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\COMMIT_EDITMSG",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "file",
+        "size_bytes": 44
+    },
+    {
+        "name": "config",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\config",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "file",
+        "size_bytes": 302
+    },
+    {
+        "name": "description",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\description",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "file",
+        "size_bytes": 73
+    },
+    {
+        "name": "HEAD",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\HEAD",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "file",
+        "size_bytes": 21
+    },
+    {
+        "name": "hooks",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "directory",
+        "size_bytes": 25821
+    },
+    {
+        "name": "applypatch-msg.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\applypatch-msg.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 478
+    },
+    {
+        "name": "commit-msg.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\commit-msg.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 896
+    },
+    {
+        "name": "fsmonitor-watchman.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\fsmonitor-watchman.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 4726
+    },
+    {
+        "name": "post-update.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\post-update.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 189
+    },
+    {
+        "name": "pre-applypatch.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\pre-applypatch.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 424
+    },
+    {
+        "name": "pre-commit.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\pre-commit.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 1643
+    },
+    {
+        "name": "pre-merge-commit.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\pre-merge-commit.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 416
+    },
+    {
+        "name": "pre-push.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\pre-push.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 1374
+    },
+    {
+        "name": "pre-rebase.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\pre-rebase.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 4898
+    },
+    {
+        "name": "pre-receive.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\pre-receive.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 544
+    },
+    {
+        "name": "prepare-commit-msg.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\prepare-commit-msg.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 1492
+    },
+    {
+        "name": "push-to-checkout.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\push-to-checkout.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 2783
+    },
+    {
+        "name": "sendemail-validate.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\sendemail-validate.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 2308
+    },
+    {
+        "name": "update.sample",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks\\update.sample",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\hooks",
+        "type": "file",
+        "size_bytes": 3650
+    },
+    {
+        "name": "index",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\index",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "file",
+        "size_bytes": 377
+    },
+    {
+        "name": "info",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\info",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "directory",
+        "size_bytes": 240
+    },
+    {
+        "name": "exclude",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\info\\exclude",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\info",
+        "type": "file",
+        "size_bytes": 240
+    },
+    {
+        "name": "logs",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "directory",
+        "size_bytes": 5010
+    },
+    {
+        "name": "HEAD",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\HEAD",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs",
+        "type": "file",
+        "size_bytes": 1959
+    },
+    {
+        "name": "refs",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs",
+        "type": "directory",
+        "size_bytes": 3051
+    },
+    {
+        "name": "heads",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\heads",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs",
+        "type": "directory",
+        "size_bytes": 1782
+    },
+    {
+        "name": "main",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\heads\\main",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\heads",
+        "type": "file",
+        "size_bytes": 1782
+    },
+    {
+        "name": "remotes",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\remotes",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs",
+        "type": "directory",
+        "size_bytes": 1269
+    },
+    {
+        "name": "origin",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\remotes\\origin",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\remotes",
+        "type": "directory",
+        "size_bytes": 1269
+    },
+    {
+        "name": "main",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\remotes\\origin\\main",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\logs\\refs\\remotes\\origin",
+        "type": "file",
+        "size_bytes": 1269
+    },
+    {
+        "name": "objects",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "directory",
+        "size_bytes": 405838
+    },
+    {
+        "name": "22",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\22",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 47
+    },
+    {
+        "name": "212dfb39b81591361c9911b258621c8f9c8a2d",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\22\\212dfb39b81591361c9911b258621c8f9c8a2d",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\22",
+        "type": "file",
+        "size_bytes": 47
+    },
+    {
+        "name": "2a",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\2a",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 172
+    },
+    {
+        "name": "ffe213e8575c49d97282fbdac9fbb79d5f8505",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\2a\\ffe213e8575c49d97282fbdac9fbb79d5f8505",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\2a",
+        "type": "file",
+        "size_bytes": 172
+    },
+    {
+        "name": "38",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\38",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 200
+    },
+    {
+        "name": "fb0304eba5b6a91c27175c2577bd5693098772",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\38\\fb0304eba5b6a91c27175c2577bd5693098772",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\38",
+        "type": "file",
+        "size_bytes": 200
+    },
+    {
+        "name": "44",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\44",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 154
+    },
+    {
+        "name": "41849e594245caeed34a31c9209676e72ed230",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\44\\41849e594245caeed34a31c9209676e72ed230",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\44",
+        "type": "file",
+        "size_bytes": 154
+    },
+    {
+        "name": "4b",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\4b",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 15
+    },
+    {
+        "name": "825dc642cb6eb9a060e54bf8d69288fbee4904",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\4b\\825dc642cb6eb9a060e54bf8d69288fbee4904",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\4b",
+        "type": "file",
+        "size_bytes": 15
+    },
+    {
+        "name": "51",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\51",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 173
+    },
+    {
+        "name": "ddc15a13ec3991bae87af71f669dc3d992ad7d",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\51\\ddc15a13ec3991bae87af71f669dc3d992ad7d",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\51",
+        "type": "file",
+        "size_bytes": 173
+    },
+    {
+        "name": "56",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\56",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 6496
+    },
+    {
+        "name": "cee9ac47c6bc852f203b69c077d938da501a7d",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\56\\cee9ac47c6bc852f203b69c077d938da501a7d",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\56",
+        "type": "file",
+        "size_bytes": 6496
+    },
+    {
+        "name": "5b",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\5b",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 214
+    },
+    {
+        "name": "a22da3c4cce97133685a210b239a9e103fd582",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\5b\\a22da3c4cce97133685a210b239a9e103fd582",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\5b",
+        "type": "file",
+        "size_bytes": 214
+    },
+    {
+        "name": "5c",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\5c",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 1835
+    },
+    {
+        "name": "869325e2d6a5a93c1092be9b906937201779bd",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\5c\\869325e2d6a5a93c1092be9b906937201779bd",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\5c",
+        "type": "file",
+        "size_bytes": 1835
+    },
+    {
+        "name": "6e",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\6e",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 2248
+    },
+    {
+        "name": "0bb1fb100ece8a41cd214f68ceea92dadb1778",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\6e\\0bb1fb100ece8a41cd214f68ceea92dadb1778",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\6e",
+        "type": "file",
+        "size_bytes": 2248
+    },
+    {
+        "name": "73",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\73",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 199
+    },
+    {
+        "name": "dcc1f5578b37a9e90777f9bf6dcbe6348d80fe",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\73\\dcc1f5578b37a9e90777f9bf6dcbe6348d80fe",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\73",
+        "type": "file",
+        "size_bytes": 199
+    },
+    {
+        "name": "78",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\78",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 7491
+    },
+    {
+        "name": "50f0082ddee621c8652fdc32dbbbf3f2320b53",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\78\\50f0082ddee621c8652fdc32dbbbf3f2320b53",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\78",
+        "type": "file",
+        "size_bytes": 7491
+    },
+    {
+        "name": "79",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\79",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 187
+    },
+    {
+        "name": "c2d66b202810c54e016523bb385aa3c455e3cd",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\79\\c2d66b202810c54e016523bb385aa3c455e3cd",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\79",
+        "type": "file",
+        "size_bytes": 187
+    },
+    {
+        "name": "93",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\93",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 199
+    },
+    {
+        "name": "e771d1ca42833e938214fb8e34668ae04c1f5b",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\93\\e771d1ca42833e938214fb8e34668ae04c1f5b",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\93",
+        "type": "file",
+        "size_bytes": 199
+    },
+    {
+        "name": "96",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\96",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 133
+    },
+    {
+        "name": "1cf502c2f2e7ed584649a2d8f32d33a2d8f69a",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\96\\1cf502c2f2e7ed584649a2d8f32d33a2d8f69a",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\96",
+        "type": "file",
+        "size_bytes": 133
+    },
+    {
+        "name": "9e",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\9e",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 326
+    },
+    {
+        "name": "df48646980ed59c0d393893cab34a7678552cd",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\9e\\df48646980ed59c0d393893cab34a7678552cd",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\9e",
+        "type": "file",
+        "size_bytes": 326
+    },
+    {
+        "name": "a2",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\a2",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 133
+    },
+    {
+        "name": "e13e920850216ed6c321e9ac7a2e0be04c0dfd",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\a2\\e13e920850216ed6c321e9ac7a2e0be04c0dfd",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\a2",
+        "type": "file",
+        "size_bytes": 133
+    },
+    {
+        "name": "a3",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\a3",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 128
+    },
+    {
+        "name": "9a3d7a4b87f03d98e86e62dae017e45897bf91",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\a3\\9a3d7a4b87f03d98e86e62dae017e45897bf91",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\a3",
+        "type": "file",
+        "size_bytes": 128
+    },
+    {
+        "name": "b7",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b7",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 331
+    },
+    {
+        "name": "2f2d5240a3a7c15d4aae18cb9627d43d4dd8dd",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b7\\2f2d5240a3a7c15d4aae18cb9627d43d4dd8dd",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b7",
+        "type": "file",
+        "size_bytes": 133
+    },
+    {
+        "name": "e7d373af2abf1472c7f816411523d45a6bb1dc",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b7\\e7d373af2abf1472c7f816411523d45a6bb1dc",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b7",
+        "type": "file",
+        "size_bytes": 198
+    },
+    {
+        "name": "b9",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b9",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 197
+    },
+    {
+        "name": "8847f3752f8d6475c015f57ab46cec9ce005d5",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b9\\8847f3752f8d6475c015f57ab46cec9ce005d5",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\b9",
+        "type": "file",
+        "size_bytes": 197
+    },
+    {
+        "name": "cb",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\cb",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 199
+    },
+    {
+        "name": "696d40699cbfc0c87a8abf09bd93342f1b3fc8",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\cb\\696d40699cbfc0c87a8abf09bd93342f1b3fc8",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\cb",
+        "type": "file",
+        "size_bytes": 199
+    },
+    {
+        "name": "de",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\de",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 4364
+    },
+    {
+        "name": "8c7b6eaea72e7dd0821502dab583efc7b387d7",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\de\\8c7b6eaea72e7dd0821502dab583efc7b387d7",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\de",
+        "type": "file",
+        "size_bytes": 4364
+    },
+    {
+        "name": "e6",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e6",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 15
+    },
+    {
+        "name": "9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e6\\9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e6",
+        "type": "file",
+        "size_bytes": 15
+    },
+    {
+        "name": "e8",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e8",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 198
+    },
+    {
+        "name": "1541ab4ca6a26534b3b13e2565d23ec02be97a",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e8\\1541ab4ca6a26534b3b13e2565d23ec02be97a",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e8",
+        "type": "file",
+        "size_bytes": 198
+    },
+    {
+        "name": "e9",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e9",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 7489
+    },
+    {
+        "name": "8eb273a9afc206a6a3ff4654e0c2d21febf7d7",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e9\\8eb273a9afc206a6a3ff4654e0c2d21febf7d7",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\e9",
+        "type": "file",
+        "size_bytes": 7489
+    },
+    {
+        "name": "ec",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\ec",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 133
+    },
+    {
+        "name": "341566b6679e5ea50f04654141c885673025ec",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\ec\\341566b6679e5ea50f04654141c885673025ec",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\ec",
+        "type": "file",
+        "size_bytes": 133
+    },
+    {
+        "name": "f0",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f0",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 133
+    },
+    {
+        "name": "cb804cc2ccc7cd56f3997836653d72675fe5c6",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f0\\cb804cc2ccc7cd56f3997836653d72675fe5c6",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f0",
+        "type": "file",
+        "size_bytes": 133
+    },
+    {
+        "name": "f1",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f1",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 2268
+    },
+    {
+        "name": "754fe48b9905b6d1c502210889c056b5fcc80f",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f1\\754fe48b9905b6d1c502210889c056b5fcc80f",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f1",
+        "type": "file",
+        "size_bytes": 2268
+    },
+    {
+        "name": "f3",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f3",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 370161
+    },
+    {
+        "name": "18cb34ffdc8e4d1ed237ae69e706b1d5c8335f",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f3\\18cb34ffdc8e4d1ed237ae69e706b1d5c8335f",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\f3",
+        "type": "file",
+        "size_bytes": 370161
+    },
+    {
+        "name": "info",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\info",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 0
+    },
+    {
+        "name": "pack",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects\\pack",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\objects",
+        "type": "directory",
+        "size_bytes": 0
+    },
+    {
+        "name": "refs",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git",
+        "type": "directory",
+        "size_bytes": 82
+    },
+    {
+        "name": "heads",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\heads",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs",
+        "type": "directory",
+        "size_bytes": 41
+    },
+    {
+        "name": "main",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\heads\\main",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\heads",
+        "type": "file",
+        "size_bytes": 41
+    },
+    {
+        "name": "remotes",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\remotes",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs",
+        "type": "directory",
+        "size_bytes": 41
+    },
+    {
+        "name": "origin",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\remotes\\origin",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\remotes",
+        "type": "directory",
+        "size_bytes": 41
+    },
+    {
+        "name": "main",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\remotes\\origin\\main",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\remotes\\origin",
+        "type": "file",
+        "size_bytes": 41
+    },
+    {
+        "name": "tags",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs\\tags",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\.git\\refs",
+        "type": "directory",
+        "size_bytes": 0
+    },
+    {
+        "name": "directory_scanner.py",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\directory_scanner.py",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)",
+        "type": "file",
+        "size_bytes": 8439
+    },
+    {
+        "name": "HW_Py_Part1.py",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\HW_Py_Part1.py",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)",
+        "type": "file",
+        "size_bytes": 20853
+    },
+    {
+        "name": "lesson7_rename.py",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\lesson7_rename.py",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)",
+        "type": "file",
+        "size_bytes": 6156
+    },
+    {
+        "name": "README.md",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\README.md",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)",
+        "type": "file",
+        "size_bytes": 38
+    },
+    {
+        "name": "Windows.docx.pdf",
+        "path": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)\\Windows.docx.pdf",
+        "parent_dir": "D:\\GB\\Разработчик — Data Engineer. Технологическая специализация\\Погружение в Python. Part 1 (семинары в записи)",
+        "type": "file",
+        "size_bytes": 379018
+    }
+]
